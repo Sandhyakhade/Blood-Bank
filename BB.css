@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+.header-container{ 
+    height: 16vh;
+background-color: red;
+    position: relative;
+    text-align: center;
+}
+.flex-container{
+    position: absolute;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+    margin-top: 6px;
+    padding: 8px;
+    right: 0;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    width:90px;
+    text-decoration: underline;
+   }
+a{
+    text-decoration: none;
+    color:black;
+   }
+li:hover{
+    border: 2px solid black;
+    background-color:white;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+/*giving padding inside the menu item*/
+.menu{
+   padding-left: 15px;
+}
+#home,#admin,#receive,#donate,#register,#login{
+    margin-top: 15px;
+    text-align: center;
+}
+#icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.bb-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 20px;
+    object-fit: cover;
+}
+img{
+    float: left;
+    object-fit: cover;
+}
+h4{
+    float: left;
+    margin-top: 35px;
+   
+  
+}
+.image-container{
+    margin: 10px;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: no-wrap;
+}
+.container{
+    border: 2px solid black;
+    height: 400px;
+}
+.container:hover{
+    box-shadow: 10px 10px 10px #f1f1f1;
+}
+/*paragraph image*/
+.para-img{
+    float: right;
+    border: 2px solid #f1f1f1;
+  
+}
+.clearfix{
+ margin-top: 50px;
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+   /* border: 2px solid black;*/
+    
+    
+}
+
+p{
+    padding: 10px;
+    color:green;
+    line-height: 1;
+
+}
+h3{
+    text-align: center;
+}
