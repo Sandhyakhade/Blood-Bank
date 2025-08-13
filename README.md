@@ -1,2 +1,2 @@
 # Blood-Bank
-Blood Bank System Created By using HTML CSS JAVASCRIPT PHP and MySQL
+Blood Bank System Created By using HTML CSS JAVASCRIPT PHP and PostgreSQL15
